@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { SiYoutube } from "react-icons/si";
 import { MdEvent } from "react-icons/md";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
         </div>
 
         <div>
-              <img src="https://github.com/Its-Riyas-28.png" alt="profile" className="w-[120px] desktopui:w-[350px]  desktopui:top-[300px] desktopui:h-[350px] h-[120px] top-[120px] absolute m-auto inset-x-0 shadow-lg border-1 border-black shadow-black rounded-full"/>
+              <Image src="https://github.com/Its-Riyas-28.png" sizes="100%" width={100} height={100} priority alt="profile" className="w-[120px] desktopui:w-[350px]  desktopui:top-[300px] desktopui:h-[350px] h-[120px] top-[120px] absolute m-auto inset-x-0 shadow-lg border-1 border-black shadow-black rounded-full"/>
         </div>
 
 
@@ -31,9 +32,9 @@ export default function Home() {
             
             <div><SiYoutube className="text-red-500 text-2xl desktopui:top-[40px]  desktopui:ml-[70px] desktopui:text-7xl absolute top-[22px] ml-4"/></div>
             
-            <div className="border-2 border-red-100 rounded-2xl                   desktopui:px-[120px] desktopui:py-[50px] desktopui:text-5xl desktopui:ml-[40px] desktopui:mr-[40px]
+            <Link href={'/reviews/youtube'} className="border-2 border-red-100 rounded-2xl                   desktopui:px-[120px] desktopui:py-[50px] desktopui:text-5xl desktopui:ml-[40px] desktopui:mr-[40px]
                             items-center space-x-4 px-4 py-5 box-shadow shadow-lg
-                          shadow-red-500 flex p-2 pl-[50px]">Youtube Reviews</div>
+                          shadow-red-500 flex p-2 pl-[50px]">Youtube Reviews</Link>
           </li>
 
           <li className="relative py-5 desktopui:py-[50px]"> 
