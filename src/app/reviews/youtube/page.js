@@ -1,9 +1,11 @@
 import React from 'react'
 
-function YoutubeReview() {
+function YouTubeReview() {
   return (
-    <div>YoutubeReview</div>
+    <div>
+        hi
+    </div>
   )
 }
 
-export default YoutubeReview
+export default YouTubeReview
