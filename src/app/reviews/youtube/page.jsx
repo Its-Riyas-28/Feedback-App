@@ -14,7 +14,7 @@ function YouTubeReview() {
         <h3 className="font-semibold uppercase">Youtube Reviews</h3>
       </header>
 
-      <div className="bg-white ml-7 mt-7 w-[340px] rounded-2xl py-9 pl-2 pt-4 shadow-red-400 shadow-lg ">
+      <div className="bg-white ml-7 mt-7 w-[340px]  rounded-2xl py-1 pl-2 pt-4 shadow-red-400 shadow-lg ">
         <h4 className="font-semibold pl-4 ">Share Your Views</h4>
 
         <form action="" className="my-5">
@@ -24,14 +24,14 @@ function YouTubeReview() {
             </label>
             <textarea
               placeholder="Enter Your feedback"
-              className="bg-red-100 w-[300px] px-4 pt-2 mt-1 rounded ml-[10px]"
+              className="bg-red-100 w-[300px] px-4 pt-2 mt-1 rounded ml-[10px] shadow-md shadow-red-400 outline-none"
             ></textarea>
           </div>
 
           <div>
             <button
               type="button"
-              className="bg-red-500 font-semibold font-sans"
+              className="bg-red-500 font-semibold font-sans mx-[120px] mt-[20px] p-2 rounded-3xl shadow-red-400 shadow-md hover:bg-red-700"
             >
               Submit
             </button>
