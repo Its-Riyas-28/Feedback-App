@@ -8,14 +8,14 @@ function YouTubeReview() {
   return (
                                               //navbar
     <div className="w-full md:1/2 ">
-      <header className=" h-[70px] w-[350px]  bg-red-500  border-b-8 border-red-400 py-4  rounded flex px-3 space-x-4 items-center">
+      <header className=" h-[70px] w-[360px]  bg-red-500  border-b-8 border-red-400 py-4  rounded flex px-3 space-x-4 items-center">
         <button type="button" onClick={() => router.back()}>
           <IoMdArrowRoundBack />
         </button>
         <h3 className="font-semibold uppercase">Youtube Reviews</h3>
       </header>
                                               {/* Share your views box */}
-      <div className="bg-white ml-4 mt-7 w-[320px]  rounded-2xl py-1 pl-1 pt-4 shadow-red-400 shadow-lg ">
+      <div className="bg-white ml-4 mt-7 w-[317px]  rounded-2xl py-1 pl-1 pt-4 shadow-red-400 shadow-lg ">
         <h4 className="font-semibold pl-4 ">Share Your Views</h4>
 
         <form action="" className="my-5">
@@ -25,7 +25,7 @@ function YouTubeReview() {
             </label>
             <textarea
               placeholder="Enter Your feedback"
-              className="bg-red-100 w-[280px] px-3 pt-2 mt-1 rounded ml-[15px] shadow-md shadow-red-400 outline-none"
+              className="bg-red-100 w-[280px] px-3 pt-2 mt-1 rounded ml-[12px] shadow-md shadow-red-400 outline-none"
             ></textarea>
           </div>
                                                   {/* Submit button */}
