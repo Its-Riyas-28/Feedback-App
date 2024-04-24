@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import JackIcon from '../../components/jackicon';
 
 
 // import "./globals.css";
@@ -15,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <div>
       <div>
-       <JackIcon appTitle={'Riyas bro'}/>
+       
        </div>
       {children}
       </div>
