@@ -12,7 +12,7 @@ function YouTubeReview() {
         <button type="button" onClick={() => router.back()}>
           <IoMdArrowRoundBack />
         </button>
-        <h3 className="font-semibold uppercase">Youtue Reviews</h3>
+        <h3 className="font-semibold uppercase">Youtube Reviews</h3>
       </header>
                                               {/* Share your views box */}
       <div className="bg-white ml-4 mt-7 w-[317px]  rounded-2xl py-1 pl-1 pt-4 shadow-red-400 shadow-lg ">
