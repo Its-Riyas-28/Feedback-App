@@ -31,7 +31,7 @@ export default function Home() {
       </header>
                                                               {/* Share Your Views box*/}
       <div className="mt-24 sm:mt-32 mb-10 w-full flex justify-center">
-        <div className=" bg-white box-shadow border-2 border-green-100 shadow-xl shadow-green-400 p-4 ml-4 mr-4 mt-[20px] w-[400px] rounded-2xl">
+        <div className=" bg-white box-shadow border-2 border-green-100 shadow-lg shadow-green-400 p-4 ml-4 mr-4 mt-[20px] w-[400px] rounded-2xl">
           <div className="font-semibold">Share Your Views</div>
 
           <ul className="py-3">

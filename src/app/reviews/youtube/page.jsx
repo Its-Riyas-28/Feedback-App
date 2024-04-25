@@ -8,7 +8,7 @@ function YouTubeReview() {
   return (
                                               //navbar
     <div className="w-full md:1/2 ">
-      <header className=" h-[70px] w-[370px]  bg-red-500  border-b-8 border-red-400 py-4  rounded flex px-3 space-x-4 items-center">
+      <header className=" h-[70px] w-[370px]  bg-red-500  border-b-8 border-red-400 py-4 flex px-3 space-x-4 items-center">
         <button type="button" onClick={() => router.back()}>
           <IoMdArrowRoundBack />
         </button>
