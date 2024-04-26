@@ -5,17 +5,20 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 import TextArea from "@/components/TextArea";
 import Inputi from "@/components/Inputi";
 
+
 function YouTubeReview() {
   const router = useRouter();
   return (
-                                              //navbar
+    //navbar
     <div className="w-full md:1/2 ">
       <header className=" h-[70px]  bg-red-500 border-b-8 border-red-400 py-4 flex px-3 space-x-4 items-center">
+
         <button type="button" onClick={() => router.back()}>
           <IoMdArrowRoundBack />
         </button>
         <h3 className="font-semibold uppercase">Youtube Reviews</h3>
       </header>
+
                                               {/* Share your views box */}
       <div className="flex justify-center my-5 g-black">                                        
       <div className="w-[417px] bg-white m-3 p-5 rounded-[25px] shadow-red-400 shadow-lg ">
@@ -43,6 +46,7 @@ function YouTubeReview() {
             </button>
           </div>
         </form>
+
       </div>
       </div>
     </div>
