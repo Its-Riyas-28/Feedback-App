@@ -19,7 +19,7 @@ function YouTubeReview() {
 
       {/* Share your views box */}
       <div className="flex justify-center my-5 g-black">
-        <div className="w-[330px] bg-white m-3 p-5 rounded-[25px] shadow-red-400 shadow-lg ">
+        <div className="w-[300px] bg-white m-3 p-5 rounded-[25px] shadow-red-400 shadow-lg ">
           <h4 className="font-semibold">Share Your Views</h4>
 
           <form action="" className="my-5 space-y-4">
