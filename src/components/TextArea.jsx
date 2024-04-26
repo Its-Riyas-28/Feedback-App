@@ -9,7 +9,7 @@ function TextArea({ text, children, placeholder }) {
 
       <textarea
         placeholder={placeholder}
-        className="bg-red-100 w-[380px] px-3 py-2 mt-1 rounded  shadow-md shadow-red-400 outline-none"
+        className="bg-red-100 w-[330px] px-3 py-2 mt-1 rounded  shadow-md shadow-red-400 outline-none"
       ></textarea>
       {children}
     </div>
