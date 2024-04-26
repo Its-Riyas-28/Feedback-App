@@ -47,7 +47,6 @@ export default function Home() {
                             items-center space-x-4 px-4 py-5 box-shadow shadow-lg
 
                           shadow-red-500 flex p-2 pl-[50px] hover:shadow-red-300"
-
               >
                 Youtube Reviews
               </Link>
