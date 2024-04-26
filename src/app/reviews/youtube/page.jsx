@@ -4,8 +4,11 @@ import { useRouter } from "next/navigation";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import TextArea from "@/components/TextArea";
 import Inputi from "@/components/Inputi";
+import { useForm } from "react-hook-form";
 
 function YouTubeReview() {
+
+  const {register} = useForm;
   const router = useRouter();
   return (
     //navbar
@@ -24,7 +27,7 @@ function YouTubeReview() {
 
           <form action="" className="my-5 space-y-4">
             <div>
-              <Inputi text="Name" placeholder="Enter Your Name" />
+              <Inputi name="hcwi" text="Name" placeholder="Enter Your Name" register={register('hcwi')}/>
             </div>
 
             <div>

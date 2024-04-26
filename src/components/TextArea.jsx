@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types"
 
 function TextArea({ text, children, placeholder }) {
   return (
@@ -14,6 +15,11 @@ function TextArea({ text, children, placeholder }) {
       {children}
     </div>
   );
+};
+
+TextArea.protoType={
+    text : PropTypes.string,
+    placeholder : PropTypes.string,
 }
 
 export default TextArea;
