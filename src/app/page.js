@@ -45,7 +45,7 @@ export default function Home() {
                 href={"/reviews/youtube"}
                 className="border-2 border-red-100 rounded-2xl                  
                             items-center space-x-4 px-4 py-5 box-shadow shadow-lg
-                          shadow-red-500 flex p-2 pl-[50px]"
+                          shadow-red-500 flex p-2 pl-[50px] hover:shadow-red-300"
               >
                 Youtube Reviews
               </Link>
@@ -59,7 +59,7 @@ export default function Home() {
               <div
                 className="border-2 border-red-100 rounded-2xl 
                             items-center space-x-4 px-4 py-5 box-shadow shadow-lg 
-                          shadow-purple-500 flex p-2 pl-[50px]"
+                          shadow-purple-500 flex p-2 pl-[50px] hover:shadow-purple-300"
               >
                 Event Reviews
               </div>
