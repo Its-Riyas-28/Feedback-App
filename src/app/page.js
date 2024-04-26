@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-                                                    //header ui
+    //header ui
     <div className="w-full md:1/2 ">
       <header className="h-[186px] bg-green-500 p-5 text-center border-b-8 border-green-400 items-center justify-center">
         <div>
@@ -16,7 +16,7 @@ export default function Home() {
             I'm Riyas
           </h3>
         </div>
-                                                        {/* Image in header */}
+        {/* Image in header */}
         <div>
           <Image
             src="https://github.com/Its-Riyas-28.png"
@@ -29,13 +29,13 @@ export default function Home() {
           />
         </div>
       </header>
-                                                              {/* Share Your Views box*/}
+      {/* Share Your Views box*/}
       <div className="mt-24 sm:mt-32 mb-10 w-full flex justify-center">
         <div className=" bg-white box-shadow border-2 border-green-100 shadow-md shadow-green-400 p-4 ml-4 mr-4 mt-[20px] w-[400px] rounded-2xl">
           <div className="font-semibold">Share Your Views</div>
 
           <ul className="py-3">
-                                            {/* Youtube row */}
+            {/* Youtube row */}
             <li className="relative">
               <div>
                 <SiYoutube className="text-red-500 text-2xl absolute top-[22px] ml-4 " />
@@ -45,21 +45,21 @@ export default function Home() {
                 href={"/reviews/youtube"}
                 className="border-2 border-red-100 rounded-2xl                  
                             items-center space-x-4 px-4 py-5 box-shadow shadow-lg
-                          shadow-red-500 flex p-2 pl-[50px]"
+                          shadow-red-500 flex p-2 pl-[50px] hover:shadow-none"
               >
                 Youtube Reviews
               </Link>
             </li>
-                                              {/* event row */}
+            {/* event row */}
             <li className="relative py-5">
               <div>
                 <MdEvent className="text-purple-500 text-2xl  absolute top-[42px] ml-4" />
               </div>
 
               <div
-                className="border-2 border-red-100 rounded-2xl 
+                className="border-2 border-red-100 rounded-2xl
                             items-center space-x-4 px-4 py-5 box-shadow shadow-lg 
-                          shadow-purple-500 flex p-2 pl-[50px]"
+                          shadow-purple-500 p-2 pl-[50px] hover:shadow-none"
               >
                 Event Reviews
               </div>
